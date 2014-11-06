@@ -1,7 +1,7 @@
 
 ##Blueprint Builders
 
-Site is hosted at ![http://blueprintbuilders.org/](http://blueprintbuilders.org/),
+Site is hosted at [http://blueprintbuilders.org/](http://blueprintbuilders.org/),
 
 ###Contact
 
