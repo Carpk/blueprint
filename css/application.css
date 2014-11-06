@@ -1,0 +1,165 @@
+
+body {
+  color: white;
+  background: #464646;
+  background-image: url(../images/blueprint_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:  fixed;
+  margin: 0;
+  height: 100%;
+}
+
+#header {
+  /*background: rgba(37, 37, 37, 0.95);*/
+  max-width: 65em;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+#header_background {
+  width: 100%;
+  /*background: rgba(37, 37, 37, 0.80);*/
+  background: url(../images/header_fade.png);
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+}
+
+.construction {
+  margin-top: 15%;
+}
+
+#bp_logo {
+  width: 311px;
+  height: 81px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text_field {
+  position: relative;
+  top: -7em;
+  right: -16em;
+  padding: 7px;
+  background: #2E72A6;
+  width: 30em;
+  height: 3em;
+}
+
+#quote_button {
+  margin: 5px 5px 0px 0px;
+  float: right;
+  padding: 3px;
+  background: rgb(255, 90, 0);
+}
+
+#stripe {
+  width: 100%;
+  height: 20px;
+  background: url(../images/stripe.png);
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+  margin-bottom: 15px;
+}
+
+.content {
+  background: rgba(37, 37, 37, 0.85);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px 25px 3px 25px;
+}
+
+#makisu {
+  width: 724px;
+  height: 468px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.front_content {
+  width: 724px;
+  height: 468px;
+  /*background: rgb(37, 37, 37);*/
+  background: rgba(37, 37, 37, 0.85);
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content a {
+color: #6BB0D8;
+}
+
+#vision {
+  margin-top: 10%;
+  width:395px;
+}
+#contact {
+  margin-bottom: 20%;
+  margin-top: 10%;
+  width: 395px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav_links a:hover {
+  border-top: solid 2px;
+}
+
+#nav_links {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 11px;
+  font-size: 24px;
+}
+
+#nav_links a {
+  margin-left: 13px;
+}
+
+.container {
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-bottom: 11px;*/
+  /*min-height: 250px;*/
+  height: 100%;
+}
+
+#active{
+  color: #95D6FC;
+}
+#footer {
+  margin-top: 30px;
+  font-size: 12px;
+  background: black;
+  width: 100%;
+  padding: 22px 0px 22px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#footer a {
+  color: #7bbde4;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+#landing {
+  margin-top: 30px;
+  font-size: 12px;
+  background: black;
+  width: 100%;
+  padding: 22px 0px 22px 0px;
+  bottom: 0;
+  left: 0;
+  position: inherit;
+}
