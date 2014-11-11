@@ -11,36 +11,35 @@ body {
 }
 
 #header {
-  max-width: 65em;
+  padding-top: 10px;
+  max-width: 72em;
   margin-right: auto;
   margin-left: auto;
   position: relative;
 }
 
-#header_background {
+#bp_logo {
+  width: 311px;
+  height: 81px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/*#header_background {
   width: 100%;
   background: url(../images/header_fade.png);
   background-size: 100% 100%;
   background-repeat: repeat-y;
-}
-
-.construction {
-  margin-top: 15%;
-}
-
-#bp_logo {
-  width: 311px;
-  height: 81px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+}*/
 
 .text_field {
+  text-shadow: 1px 1px #000000;
+  border-radius: 1px;
   position: relative;
-  top: -7em;
-  right: -16em;
+  top: -11em;
+  left: 29em;
   padding: 7px;
-  background: #2E72A6;
+  background: rgba(31, 107, 165, 0.92);
   width: 30em;
   height: 3em;
 }
@@ -60,33 +59,104 @@ body {
   background: url(../images/stripe.png);
   background-size: 100% 100%;
   background-repeat: repeat-y;
-  margin-bottom: 15px;
+  margin-bottom: 2em;
 }
 
 #makisu {
-  width: 724px;
-  height: 468px;
+  border-radius: 1px;
+  width: 1002px;
   margin-left: auto;
   margin-right: auto;
 }
 
+#worker_img{
+  background: url(../images/construction_worker.jpg);
+  padding-top: 8em;
+  width: 100%;
+  height: 550px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#kitchen{
+  background: url(../images/wood_kitchen.jpg);
+  padding-top: 8em;
+  width: 100%;
+  height: 665px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#blueprints{
+  background: url(../images/blueprints.jpg);
+  padding-top: 8em;
+  width: 100%;
+  height: 615px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#framework{
+  background: url(../images/pic_1.jpg);
+  padding-top: 4em;
+  width: 100%;
+  height: 750px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .front_content {
-  width: 724px;
-  height: 468px;
-  background: rgba(37, 37, 37, 0.85);
-  padding: 50px;
+  border-radius: 2px;
+  height: 532px;
+  padding: 43px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .content {
-  background: rgba(37, 37, 37, 0.85);
+
+  background: rgba(31, 107, 165, 0.92);
+  text-shadow: 0px 0px 1px #000000;
+  width: 550px;
   margin-left: auto;
   margin-right: auto;
   padding: 3px 25px 3px 25px;
-  margin-bottom: 20%;
-  margin-top: 10%;
-  width: 395px;
+  /*margin-bottom: 20%;*/
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.main {
+  border-radius: 1px;
+  padding: 48px;
+  width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  min-height: 425px;
+  background: rgba(37, 37, 37, 0.75);
+}
+
+.container {
+  /*padding-top: 8em;*/
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  position: relative;
+  font-size: 12px;
+  background: black;
+  width: 100%;
+  padding: 22px 0px 22px 0px;
+  bottom: 0;
+}
+
+.profile_pic {
+  float: right;
+  height: 100px;
+  margin-top: 17px;
 }
 
 .content a {
@@ -114,26 +184,8 @@ a {
   margin-left: 13px;
 }
 
-.container {
-  width: 60em;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 300px;
-}
-
 #active{
   color: #95D6FC;
-}
-
-#footer {
-  margin-top: 30px;
-  font-size: 12px;
-  background: black;
-  width: 100%;
-  padding: 22px 0px 22px 0px;
-  bottom: 0;
-  left: 0;
-  position: inherit;
 }
 
 #footer a {
@@ -141,5 +193,6 @@ a {
 }
 
 #wrapper {
-  min-height: 100vh;
+  min-height: 100%;
+  position: relative;
 }
