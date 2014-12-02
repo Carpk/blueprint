@@ -4,7 +4,8 @@ body {
   background: #FBFBFF;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
+  position: relative;
 }
 
 #header {
@@ -35,6 +36,7 @@ body {
 }
 
 #quote_button {
+  color: #E8E8E8;
   margin: 5px 5px 0px 0px;
   float: right;
   padding: 3px 8px 3px 8px;
@@ -68,7 +70,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#kitchen{
+#kitchen {
   background: url(../images/wood_kitchen.jpg);
   padding-top: 8em;
   width: 100%;
@@ -77,7 +79,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#stone_kitchen{
+#stone_kitchen {
   background: url(../images/stone_kitchen.jpg);
   padding-top: 5em;
   width: 100%;
@@ -113,10 +115,6 @@ body {
   height: auto;
 }
 
-.main_content {
-  display: block;
-}
-
 .col_25 {
   float: left;
   width: 25%;
@@ -131,27 +129,44 @@ body {
   padding-right: 1px;
 }
 
-/*.front_content {
-  border-radius: 2px;
-  height: 532px;
-  padding: 43px;
+.front_content {
+  color: #E8E8E8;
+  background: rgba(31, 107, 165, 0.92);
   margin-left: auto;
   margin-right: auto;
-}*/
+  position: absolute;
+  z-index: 100;
+  border-radius: 2px;
+  width: 650px;
+  /*height: 120px;*/
+  padding: 20px;
+  top: 16em;
+  right: 4em;
+}
 
 .content {
-
   background: rgba(31, 107, 165, 0.92);
   /*text-shadow: 0px 0px 1px #000000;*/
   width: 550px;
   margin-left: auto;
   margin-right: auto;
   padding: 3px 25px 3px 25px;
-  /*margin-bottom: 20%;*/
+  color: #E8E8E8;
   font-size: 17px;
   margin-top: 30px;
 }
 
+.gallery_content {
+  background: rgba(31, 107, 165, 0.92);
+  color: #343333;
+  /*text-shadow: 0px 0px 1px #000000;*/
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px 25px 3px 25px;
+  font-size: 17px;
+  margin-top: 30px;
+}
 .main {
   border-radius: 1px;
   padding: 48px;
@@ -165,25 +180,26 @@ body {
 
 .container {
   /*padding-top: 8em;*/
-  width: 850px;
+  width: 80%;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
-.front_container {
-  /*padding-top: 8em;*/
+/*.front_container {
+  padding-top: 8em;
   width: 1050px;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 #footer {
+  position: absolute;
   font-size: 12px;
   width: 100%;
   background: black;
   padding: 22px 0px 22px 0px;
-  /*margin-top: 7em;*/
-  position: relative;
+  margin-top: 6em;
   bottom: 0;
 }
 
@@ -200,7 +216,7 @@ body {
 }
 
 .content a {
-  color: #6BB0D8;
+  color: #0E354C;
 }
 
 a {
@@ -233,6 +249,6 @@ a {
 }
 
 #wrapper {
-  min-height: 100%;
-  position: relative;
+  min-height: 100vh;
+  /*position: relative;*/
 }
