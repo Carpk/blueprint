@@ -5,6 +5,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   min-height: 100%;
+  /*position: relative;*/
+}
+
+html {
   position: relative;
 }
 
@@ -115,25 +119,30 @@ body {
   height: auto;
 }
 
-.col_25 {
+.col_25w {
   float: left;
   width: 25%;
   padding-left: 1px;
   padding-right: 1px;
+  overflow: hidden;
 }
 
-.col_50 {
+.col_50w {
   float: left;
   width: 49.5%;
   padding-left: 1px;
   padding-right: 1px;
+  overflow: hidden;
+}
+
+.std_content {
+  color: #E8E8E8;
+  background: rgba(31, 107, 165, 0.95);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .front_content {
-  color: #E8E8E8;
-  background: rgba(31, 107, 165, 0.92);
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   z-index: 100;
   border-radius: 2px;
@@ -145,24 +154,16 @@ body {
 }
 
 .content {
-  background: rgba(31, 107, 165, 0.92);
   /*text-shadow: 0px 0px 1px #000000;*/
   width: 550px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 3px 25px 3px 25px;
-  color: #E8E8E8;
   font-size: 17px;
   margin-top: 30px;
 }
 
 .gallery_content {
-  background: rgba(31, 107, 165, 0.92);
-  color: #343333;
   /*text-shadow: 0px 0px 1px #000000;*/
   width: 900px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 3px 25px 3px 25px;
   font-size: 17px;
   margin-top: 30px;
@@ -250,5 +251,6 @@ a {
 
 #wrapper {
   min-height: 100vh;
+  padding-bottom: 80px;
   /*position: relative;*/
 }
