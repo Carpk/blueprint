@@ -40,11 +40,11 @@ html {
 }
 
 #quote_button {
-  color: #E8E8E8;
+  color: #FFFFFF;
   margin: 5px 5px 0px 0px;
   float: right;
   padding: 3px 8px 3px 8px;
-  background: rgb(255, 90, 0);
+  background: rgb(224, 182, 49);
   border-radius: 20px;
   box-shadow: 3px 3px 5px #000000;
 }
@@ -137,15 +137,16 @@ html {
 
 .std_content {
   color: #E8E8E8;
-  background: rgba(31, 107, 165, 0.95);
+  background: rgba(31, 107, 165, 0.90);
   margin-left: auto;
   margin-right: auto;
+  text-shadow: 2px 2px 2px black;
 }
 
 .front_content {
   position: absolute;
   z-index: 100;
-  border-radius: 2px;
+  border-radius: 10px;
   width: 650px;
   /*height: 120px;*/
   padding: 20px;
