@@ -23,7 +23,7 @@ h2, h3 {
 	font-weight: bold;
 }
 hr {
-	border-color: #f2af00;
+	border-color: #286090;
 	opacity: 0.3;
 }
 img {
@@ -43,7 +43,7 @@ img:hover {
 	margin: 0 !important;
 }
 .navbar-default .navbar-brand {
-	background: #dc5034;
+	background: #286090;
 	color: #fff;
 	font-weight: bold;
 	font-size: 26px;
@@ -53,7 +53,7 @@ img:hover {
 	padding: 20px 20px 40px 20px;
 }
 .navbar-default .navbar-brand:hover {
-	background: #f2af00;
+	background: #286090;
 }
 .navbar-default .navbar-nav li a {
 	border-right: 1px solid #f9f9f9;
@@ -64,10 +64,10 @@ img:hover {
 	line-height: 60px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #f2af00;
+	color: #286090;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #f2af00;
+	color: #286090;
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -121,13 +121,13 @@ img:hover {
 	padding-bottom: 80px;
 }
 #service h2 {
-	border-left: 2px solid #f2af00;
+	border-left: 2px solid #286090;
 	display: inline-block;
 	padding: 20px;
 }
 #service .fa {
-	border-top: 4px solid #f2af00;
-	border-bottom: 4px solid #dc5034;
+	/*border-top: 4px solid #286090;*/
+	/*border-bottom: 4px solid #286090;*/
 	border-radius: 50%;
 	font-size: 26px;
 	width: 90px;
@@ -144,7 +144,7 @@ img:hover {
 	padding-bottom: 80px;
 }
 #about h2 {
-	border-right: 2px solid #f2af00;
+	border-right: 2px solid #286090;
 	display: inline-block;
 	padding: 10px 20px 10px 10px;
 }
@@ -165,7 +165,7 @@ img:hover {
 	padding-bottom: 100px;
 }
 #team h2 {
-	border-left: 2px solid #f2af00;
+	border-left: 2px solid #286090;
 	display: inline-block;
 	padding: 10px 10px 10px 20px;
 }
@@ -184,7 +184,7 @@ img:hover {
 	padding-bottom: 60px;
 }
 #portfolio h2 {
-	border-right: 2px solid #f2af00;
+	border-right: 2px solid #286090;
 	display: inline-block;
 	padding: 10px 20px 10px 10px;
 }
@@ -213,7 +213,7 @@ img:hover {
 	-ms-transition: all 0.4s ease-in-out;
 }
 .filter-wrapper li a.selected, .filter-wrapper li a:focus, .filter-wrapper li a:hover {
-	background: #f2af00;
+	background: #286090;
 	border-color: transparent;
 	color: #ffffff;
 }
@@ -251,7 +251,7 @@ img:hover {
 	text-align: center;
 }
 #pricing h2 {
-	border-left: 2px solid #f2af00;
+	border-left: 2px solid #286090;
 	display: inline-block;
 	padding: 10px 10px 10px 20px;
 }
@@ -284,7 +284,7 @@ img:hover {
 	height: 50px;
 }
 #pricing .plan .btn:hover {
-	background: #f2af00;
+	background: #286090;
 	border-color: transparent;
 }
 /* contact section */
@@ -294,7 +294,7 @@ img:hover {
 	text-align: center;
 }
 #contact h2 {
-	border-right: 2px solid #f2af00;
+	border-right: 2px solid #286090;
 	display: inline-block;
 	padding: 10px 20px 10px 10px;
 	margin-bottom: 60px;
@@ -320,7 +320,7 @@ img:hover {
 	height: 54px;
 }
 #contact input[type="submit"]:hover {
-	background: #f2af00;
+	background: #286090;
 	border-color: transparent;
 }
 #contact p {
@@ -375,7 +375,7 @@ footer span {
 	margin-right: 10px;
 }
 .social-icons li a:hover {
-	background: #f2af00;
+	background: #286090;
 }
 /* copyright section */
 .copyright {
@@ -385,7 +385,7 @@ footer span {
 }
 /* scrolltop section */
 .go-top {
-	background-color: #f2af00;
+	background-color: #286090;
 	font-size: 26px;
 	bottom: 2em;
 	right: 2em;
@@ -416,4 +416,19 @@ footer span {
 #team h4 {
 	padding-bottom: 30px;
 }
+}
+
+/* Custom */
+.home .row div h2{
+	background-color: pink;
+	text-shadow: 1px 1px 1px white;
+}
+
+.welcome-text{
+	background-color: rgba(140, 140, 140, 0.71);
+	padding-bottom: 10px;
+}
+
+.navbar-default .navbar-brand{
+	padding-top: 3px;
 }
