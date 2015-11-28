@@ -432,3 +432,7 @@ footer span {
 .navbar-default .navbar-brand{
 	padding-top: 3px;
 }
+
+div .radio-btns{
+	height: 13px;
+}
