@@ -436,3 +436,7 @@ footer span {
 div .radio-btns{
 	height: 13px;
 }
+
+.nivo-lightbox-image img:hover{
+	opacity: 100;
+}
